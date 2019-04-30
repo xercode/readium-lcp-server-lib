@@ -1,0 +1,42 @@
+{
+  "name": "xebook/readium-lcp-server-lib",
+  "description": "Common interface for readium-lcp-server",
+  "keywords": [
+    "readium",
+    "lcp-3",
+    "drm"
+  ],
+  "homepage": "https://github.com/xercode/readium-lcp-server-lib",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Xercode",
+      "homepage": "https://xercode.es"
+    }
+  ],
+  "require": {
+    "php": "^7.1",
+    "psr/log": "^1.0.1",
+    "guzzlehttp/guzzle": "^6.3",
+    "jms/serializer": "^1.13",
+    "doctrine/collections": "^1.6"
+  },
+  "autoload": {
+    "psr-4": {
+      "Xercode\\Readium\\": "src"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Xercode\\Readium\\": "tests"
+    }
+  },
+  "extra": {
+    "branch-alias": {
+      "dev-master": "1.0.x-dev"
+    }
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^7.5"
+  }
+}
